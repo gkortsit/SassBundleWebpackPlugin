@@ -7,7 +7,7 @@ Webpack plugin that lets you bundle SASS/SCSS files into one file
 First install the package
 
 ```js
-$ npm install --save-dev sass-bundle-webpack-plugin
+npm install --save-dev sass-bundle-webpack-plugin
 ```
 
 ## Usage in webpack.config.js
