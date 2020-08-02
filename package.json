@@ -1,0 +1,28 @@
+{
+  "name": "sass-bundle-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Simple webpack plugin that lets you bundle sass/scss files",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkortsit/SassBundleWebpackPlugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "sass",
+    "scss",
+    "bundle"
+  ],
+  "author": "Theodore Gkortsilas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gkortsit/SassBundleWebpackPlugin/issues"
+  },
+  "homepage": "https://github.com/gkortsit/SassBundleWebpackPlugin#readme"
+}
