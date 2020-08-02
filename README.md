@@ -23,6 +23,7 @@ You will also need to require `path`
 const path = require('path');
 ```
 
+
 Insert a new instance of the plugin inside the plugins array
 
 ### Example:
