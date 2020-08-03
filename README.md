@@ -20,8 +20,9 @@ const SassBundleWebpackPlugin = require('sass-bundle-webpack-plugin');
 
 You will also need to require `path`
 ```js
-const path = require("path");
+const path = require('path');
 ```
+
 
 Insert a new instance of the plugin inside the plugins array
 
@@ -29,7 +30,7 @@ Insert a new instance of the plugin inside the plugins array
 
 ```js
 plugins: [
-	new SassBundleWebpackPlugin({
+  new SassBundleWebpackPlugin({
 		file: path.join(__dirname, 'src/index.sass'),
 		type: 'sass',
 		output: {
