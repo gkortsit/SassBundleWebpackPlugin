@@ -10,6 +10,10 @@ First install the package
 npm install --save-dev sass-bundle-webpack-plugin
 ```
 
+## SASS/SCSS Entry File
+
+the entry file needs to have the @imports pointing to the file using relative paths. For example: `@import './button.scss';`
+
 ## Usage in webpack.config.js
 
 Require the module at the top of file
@@ -22,10 +26,6 @@ You will also need to require `path`
 ```js
 const path = require('path');
 ```
-
-## SASS/SCSS Entry File
-
-the entry file needs to have the @imports pointing to the file using relative paths. For example: `@import './button.scss';`
 
 Insert a new instance of the plugin inside the plugins array
 
